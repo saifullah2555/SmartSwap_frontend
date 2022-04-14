@@ -292,7 +292,7 @@ export default class Home extends PureComponent {
       this.getData(domain);
     } else {
       this.setState({
-        isSubdomain: false,
+        isSubdomain: true,
         isloading: false,
       });
       // setTimeout(() => {
