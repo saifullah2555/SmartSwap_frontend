@@ -4417,11 +4417,11 @@ export default class Home extends PureComponent {
                 closePopup={this.closePopup}
                 openPopup={this.openPopup}
               ></CefiToDefi>
-              <NoDomain
+              {/* <NoDomain
                 closePopup={this.closePopup}
                 openPopup={this.openPopup}
                 subDomainName={this.state.subDomainName}
-              ></NoDomain>
+              ></NoDomain> */}
               {/* <!--======================= COIN POPUP END =====================-->
                     <!--======================= SIDE POPUP START =====================--> */}
               <SidePopup
